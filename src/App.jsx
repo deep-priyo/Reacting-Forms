@@ -1,7 +1,8 @@
+import UseRef from "./components/useRef";
 const App = () => {
   return (
-    <div className="w-full h-screen bg-zinc-600">App</div>);
+    <div>
+      <UseRef />
+    </div>);
 };
-
 export default App;
- 
